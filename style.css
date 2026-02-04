@@ -144,3 +144,12 @@ body {
         font-size: 1rem;
     }
 }
+.daikuti {
+    animation: pika 0.5s infinite alternate;
+}
+
+
+@keyframes pika {
+    from{ filter: brightness(1); }
+    to { filter: brightness(1.8); }
+}
